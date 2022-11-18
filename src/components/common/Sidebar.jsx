@@ -170,6 +170,7 @@ const Sidebar = ({ open, handleDrawerClose, theme }) => {
       <List
         sx={{
           color: '#fff',
+          backgroundColor: '#292929',
         }}
       >
         <Divider sx={{ backgroundColor: '#fff' }} />
