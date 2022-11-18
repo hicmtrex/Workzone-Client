@@ -1,7 +1,7 @@
 import axios from 'axios';
 import queryString from 'query-string';
 
-const BACKEND_URL = process.env.REACT_APP.BACKEND_URL;
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 const baseUrl = `${BACKEND_URL}/api/v1/`;
 const getToken = () => localStorage.getItem('token');
