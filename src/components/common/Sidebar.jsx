@@ -66,7 +66,7 @@ const Drawer = styled(MuiDrawer, {
 export const DrawerHeader = styled('div')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
-  backgroundColor: '#000',
+  backgroundColor: '#292929',
   color: 'white',
   padding: theme.spacing(0, 1),
   // necessary for content to be below app bar
@@ -137,7 +137,7 @@ const Sidebar = ({ open, handleDrawerClose, theme }) => {
   return (
     <Drawer
       style={{
-        backgroundColor: '#000',
+        backgroundColor: '#292929',
       }}
       variant='permanent'
       open={open}

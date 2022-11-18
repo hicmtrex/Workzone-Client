@@ -10,8 +10,6 @@ import { useState, useEffect } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
 import authUtils from '../../utils/authUtils';
 import Loading from '../common/Loading';
-import assets from '../../assets';
-
 const AuthLayout = ({ title }) => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
