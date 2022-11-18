@@ -170,6 +170,7 @@ const Sidebar = ({ open, handleDrawerClose, theme }) => {
       <List
         sx={{
           color: '#fff',
+          height: '100vh',
           backgroundColor: '#292929',
         }}
       >
